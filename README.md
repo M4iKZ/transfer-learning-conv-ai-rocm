@@ -12,7 +12,7 @@ To install and use the training and inference scripts clone the repo and follow 
 ```bash
 pythom -m venv env
 
-source bin/bin/activate
+source env/bin/activate
 
 pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/rocm5.3
 pip install --pre pytorch-ignite 
